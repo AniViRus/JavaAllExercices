@@ -8,9 +8,7 @@ public class Main {
 
         System.out.println(circle);
 
-        PointMovable pointMovable = new PointMovable(10,10);
-        System.out.println(pointMovable);
-        pointMovable.move(12,19);
-        System.out.println(pointMovable);
+        Point point = new Point(10,10);
+        System.out.println(point);
     }
 }
